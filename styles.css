@@ -1,11 +1,15 @@
 @charset "UTF-8";
+body {
+  overflow-x: hidden;
+}
+
 .colorRed:hover {
   color: #FA5959 !important;
 }
 
 .blueFigure {
   background-color: #5265E1;
-  width: 70%;
+  width: 100%;
   top: 100px;
   height: 300px;
   left: 200px;
