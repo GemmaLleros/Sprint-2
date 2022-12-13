@@ -1,0 +1,16 @@
+$primary:#5265E1;
+$secondary:#FA5959;
+.colorRed:hover{
+    color: $secondary !important;
+}
+.blueFigure{
+    background-color: $primary;
+    width: 70%;
+    top: 100px;
+    height: 300px;
+    left: 200px;
+    border-radius: 200px 0 0 200px;
+    position: absolute;
+    z-index:-3;
+}
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

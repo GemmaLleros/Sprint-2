@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S2. Bootstrap&SASS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col 12 p-5">
+        <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="#">
+           <img src="Imagenes/logo-bookmark.svg" width="100%" height="24" class="d-inline-block align-text-top"></a>
+            <ul class="nav justify-content-end">
+           <li class="nav-item">
+             <a class="nav-link active text-dark d-none d-sm-block d-sm-none d-md-block" aria-current="page" href="#">FREATURES</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link d-md-none d-lg-block d-lg-none d-xl-block d-xl-none" href="#">
+              <img src="Imagenes/icon-hamburger.svg" width="100%" height="24" class="d-inline-block align-text-top"></a>
+            <ul class="nav justify-content-end">
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block" href="#">PRICING</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link text-dark d-none d-sm-block d-sm-none d-md-block" href="#">CONTACT</a>
+           </li>
+           <div class="d-grid gap-2 d-none d-sm-block d-sm-none d-md-block">
+             <button type="button" class="btn btn-secondary text-white btn-md">LOGIN</button>
+           </div>
+         </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container d-flex">
+    <div class="row">
+      <div class="col-12 col-md-6 order-md-2 position-relative">
+        <img class="img-fluid" src="imagenes/illustration-hero.svg"/>
+        <span class="blueFigure"></span>
+      </div>
+      <div class="col-12 col-md-6 order-md-1 text-center align-self-center">
+        <h2>A Simple Bookmark Manager</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum officia at quasi architecto magnam porro animi labore necessitatibus ducimus ullam.</p>
+        <button type="button" class="btn btn-primary btn-sm">Get it on Chrome</button>
+        <button type="button" class="btn btn-light">Get it on firefox</button>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+   
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
