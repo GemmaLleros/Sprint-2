@@ -17,4 +17,14 @@ body {
     position: absolute;
     z-index:-3;
 }
+.blueFigure2{
+    background-color: $primary;
+    width: 100%;
+    top: 100px;
+    height: 300px;
+    left: 200px;
+    border-radius: 200px 0 0 60px;
+    position: absolute;
+    z-index:-3;
+}
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
