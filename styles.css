@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -9,13 +9,24 @@ body {
 
 .blueFigure {
   background-color: #5265E1;
-  width: 100%;
-  top: 100px;
-  height: 300px;
-  left: 200px;
+  width: 100rem;
+  top: 40%;
+  height: 70%;
+  left: 30%;
   border-radius: 200px 0 0 200px;
   position: absolute;
   z-index: -3;
+}
+
+.blueFigure2 {
+  background-color: #5265E1;
+  width: 100rem;
+  height: 70%;
+  right: 25%;
+  top: 50%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
 }
 
 /*!
