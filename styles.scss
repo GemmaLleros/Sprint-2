@@ -1,10 +1,7 @@
-$primary:#5265E1;
-$secondary:#FA5959;
-html, body {
-    overflow-x:hidden 
-  } 
-.colorRed:hover{
-    color: $secondary !important;
+$primary: #5265e1;
+$secondary: #fa5959;
+html, body{
+    overflow-x:hidden;
 }
 .blueFigure{
     background-color: $primary;
@@ -16,14 +13,69 @@ html, body {
     position: absolute;
     z-index:-3;
 }
+
+.nav-link{
+    color: black !important;
+}
+.nav-link.active {
+  color: black !important;
+  border-bottom: 4px solid #fa5959 !important;
+  padding-bottom: 12px !important;
+}
+.nav-link:hover{
+    color: $secondary !important;
+}
+.btn-primary:hover{
+    background-color: white !important;
+    color: $primary !important;
+}
+.dropdown-toggle-split:hover{
+    color: $secondary !important;
+}
+.hoverNav {
+  border: 0px;
+}
+.btn-secondary:hover {
+    background-color: white !important;
+    color: $secondary !important;
+}
+.btn-light:hover{
+  background-color: white !important;
+  color: $primary;
+}
+.social-icon:hover{
+  filter: invert(80%) sepia(100%) saturate(2596%) hue-rotate(341deg) brightness(80%) contrast(99%);
+}
+.colorRed:hover {
+  color: $secondary !important;
+}
 .blueFigure2 {
-    background-color: $primary;
-    width: 100rem;
-    height: 70%;
-    right: 25%;
-    top: 50%;
-    position: absolute;
-    z-index: -3;
-    border-radius: 0 200px 200px 0;
+  background-color: $primary;
+  width: 100rem;
+  height: 80%;
+  right: 20%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
+}
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  background-image: url("../Imagenes/icon-arrow.svg") !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: invert(47%) sepia(96%) saturate(1098%) hue-rotate(324deg)
+    brightness(97%) contrast(102%);
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
