@@ -1,21 +1,21 @@
 $primary: #5265e1;
 $secondary: #fa5959;
 html, body{
-    overflow-x:hidden;
+  overflow-x:hidden;
 }
 .blueFigure{
-    background-color: $primary;
-    width: 100rem;
-    top: 40%;
-    height: 70%;
-    left: 30%;
-    border-radius: 200px 0 0 200px;
-    position: absolute;
-    z-index:-3;
+  background-color: $primary;
+  width: 100rem;
+  top: 40%;
+  height: 70%;
+  left: 30%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index:-3;
 }
 
 .nav-link{
-    color: black !important;
+  color: black !important;
 }
 .nav-link.active {
   color: black !important;
@@ -23,21 +23,21 @@ html, body{
   padding-bottom: 12px !important;
 }
 .nav-link:hover{
-    color: $secondary !important;
+  color: $secondary !important;
 }
 .btn-primary:hover{
-    background-color: white !important;
-    color: $primary !important;
+  background-color: white !important;
+  color: $primary !important;
 }
 .dropdown-toggle-split:hover{
-    color: $secondary !important;
+  color: $secondary !important;
 }
 .hoverNav {
   border: 0px;
 }
 .btn-secondary:hover {
-    background-color: white !important;
-    color: $secondary !important;
+  background-color: white !important;
+  color: $secondary !important;
 }
 .btn-light:hover{
   background-color: white !important;
@@ -76,6 +76,6 @@ html, body{
 }
 .accordion-button:not(.collapsed)::after {
   filter: invert(47%) sepia(96%) saturate(1098%) hue-rotate(324deg)
-    brightness(97%) contrast(102%);
+  brightness(97%) contrast(102%);
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
